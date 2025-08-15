@@ -1,15 +1,14 @@
 
 import { Header } from "@/components/Header";
-import {MobileMenu} from "@/components/MobileMenu"
+import { LandingPage } from "@/components/LandingPage";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen bg-gray-50 dark:bg-black transition-colors">
       <Header />
-      mmmm
-      dkdkd
-      eeee
-      <h1>eeeee</h1>
+
+      <LandingPage />
+      
     </div>
   );
 }
