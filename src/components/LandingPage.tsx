@@ -2,9 +2,9 @@
 
 import React from 'react'
 import {motion} from 'framer-motion'
-import { Trophy } from 'lucide-react';
-import { Users, Zap, Plus } from 'lucide-react';
+import { Users, Zap, Plus, Trophy } from 'lucide-react';
 import { TokenBalance } from "@/components/TokenBalance";
+import { ContentCard } from "@/components/ContentCard";
 
 
 export const LandingPage = () => {
@@ -79,6 +79,11 @@ export const LandingPage = () => {
             <span>Create Content</span>
           </motion.button>
         </div>
+      </div>
+
+      {/**Content*/}
+      <div>
+        
       </div>
 
     </main>
