@@ -28,7 +28,7 @@ export const LandingPage = () => {
           transition={{ delay: 0.2 }}
           className='text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-8 px-4'
         >
-          Share content, earn tokens, and build your webs identity
+          Share content, earn tokens, and build your web identity
         </motion.p>
 
         {/**Stats */}
@@ -46,16 +46,16 @@ export const LandingPage = () => {
             <p className='text-gray-600 dark:text-gray-300 text-sm sm:text-base'>Active Creators</p>
           </div>
 
-          <div className='bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-lg border border-grey-200 dark:border-gray-700'>
-            <div className='flex item-center justify-center mb-3'>
+          <div className='bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-lg border border-gray-200 dark:border-gray-700'>
+            <div className='flex items-center justify-center mb-3'>
               <Trophy className='h-8 w-8 text-purple-500'/>
             </div>
             <h3 className='text-xl sm:text-2xl font-bold text-gray-900 dark:text-white'>89,231</h3>
             <p className='text-gray-600 dark:text-gray-300 text-sm sm:text-base'>NFTs Minted</p>
           </div>
 
-          <div className='bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-lg border border-grey-200 dark:border-gray-700'>
-            <div className='flex item-center justify-center mb-3'>
+          <div className='bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-lg border border-gray-200 dark:border-gray-700'>
+            <div className='flex items-center justify-center mb-3'>
               <Zap className='h-8 w-8 text-purple-500'/>
             </div>
             <h3 className='text-xl sm:text-2xl font-bold text-gray-900 dark:text-white'>2.4M</h3>

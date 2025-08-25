@@ -70,7 +70,6 @@ export const CreateContent = ({ onSubmit }: CreateContentProps) => {
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
-      // In a real app, upload to IPFS or cloud storage
       const url = URL.createObjectURL(file);
       setContentUrl(url);
       toast.success('File uploaded successfully!');
