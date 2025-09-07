@@ -4,7 +4,6 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { Users, Zap, Plus, Trophy } from 'lucide-react';
 import { TokenBalance } from "@/components/TokenBalance";
-import { ContentCard } from "@/components/ContentCard";
 
 
 export const LandingPage = () => {

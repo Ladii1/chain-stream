@@ -12,7 +12,7 @@ export const Header = () => {
   const {address} = useAccount();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b dark:bg-black/80 backdrop-blur-md border-gray-200 dark:border-gray-800">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/80  backdrop-blur-md border-gray-200 dark:border-gray-800">
         <div className='container mx-auto px-4 py-3 max-w-7xl'>
             <div className='flex item-center justify-between'>
                 <Link href="/" className="flex items-center space-x-2">
@@ -59,6 +59,5 @@ export const Header = () => {
             </div>
         </div>
     </header>
-    
   )
 }

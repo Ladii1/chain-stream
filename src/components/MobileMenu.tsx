@@ -39,7 +39,7 @@ export const MobileMenu = () => {
     { href: '/', icon: House, label: 'Home' },
     { href: '#', icon: Search, label: 'Explore' },
     ...(address ? [
-      { href: '#', icon: Plus, label: 'Create' },
+      { href: '/create', icon: Plus, label: 'Create' },
       { href: '#', icon: User, label: 'Profile' },
     ] : []),
   ];
@@ -81,7 +81,7 @@ export const MobileMenu = () => {
             animate="open"
             exit="closed"
             variants={menuVariants}
-            className="md:hidden border-t border-gray-200 dark:border-gray-800 overflow-hidden absolute top-16 left-0 right-0 z-30 bg-background/95 backdrop-blur"
+            className="md:hidden absolute overflow-hidden border border-gray-200 dark:border-gray-800 rounded-xl shadow-lg top-16 mt-2 w-64 right-2 z-50 bg-white/95 dark:bg-black/95 backdrop-blur"
             ref={MenuRef}
           >
             {/* Navigation Items */}
