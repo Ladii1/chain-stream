@@ -31,7 +31,7 @@ const page = () => {
   };
 
   return (
-    <div className='min-h-screen '>
+    <div className="min-h-screen bg-gray-50 transition-colors">
       <Header />
       <main className='container mx-auto px-4 py-8 max-w-4xl'>
         
@@ -58,21 +58,21 @@ const page = () => {
             transition={{delay:0.2}}
             className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-8'
           >
-            <div className='bg-blue-200 border border-gray-200 rounded-xl shadow-sm p-6 text-center '>
+            <div className='bg-white border border-gray-200 rounded-xl shadow-sm p-6 text-center '>
               <Sparkles className='h-8 w-8 text-purple-500 mx-auto mb-3' />
               <h3 className='font-semibold text-gray-900 mb-2'> Mint as NFT</h3>
               <p className='text-sm text-gray-600'>
                 Your content is automatically minted as an NFT, proving ownership and authenticity
               </p>
             </div>
-            <div className='bg-blue-200 border border-gray-200 rounded-xl shadow-sm p-6 text-center '>
+            <div className='bg-white border border-gray-200 rounded-xl shadow-sm p-6 text-center '>
               <Zap className='h-8 w-8 text-blue-500 mx-auto mb-3'/>
               <h3 className='font-semibold text-gray-900 mb-2'> Earn Tokens</h3>
               <p className='text-sm text-gray-600'>
                 Receive CST tokens for creating content and engaging with the community
               </p>
             </div>
-            <div className='bg-blue-200 border border-gray-200 rounded-xl shadow-sm p-6 text-center '>
+            <div className='bg-white border border-gray-200 rounded-xl shadow-sm p-6 text-center '>
               <Plus className='h-8 w-8 text-green-500 mx-auto mb-3'/>
               <h3 className='font-semibold text-gray-900 mb-2'>Get Tips</h3>
               <p className='text-sm text-gray-600'>Receive tips from other users who appreciate your content</p>

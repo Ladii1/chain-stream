@@ -29,7 +29,7 @@ export const Header = () => {
                     <House className='w-4 h-4' />
                     <span>Home</span>
                   </Link>
-                  <Link href="#" className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+                  <Link href="/explore" className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                     <Search className='w-4 h-4'/>
                     <span>Explore</span>
                   </Link>

@@ -37,7 +37,7 @@ export const MobileMenu = () => {
   }, [isOpen]);
   const menuItems = [
     { href: '/', icon: House, label: 'Home' },
-    { href: '#', icon: Search, label: 'Explore' },
+    { href: '/explore', icon: Search, label: 'Explore' },
     ...(address ? [
       { href: '/create', icon: Plus, label: 'Create' },
       { href: '#', icon: User, label: 'Profile' },

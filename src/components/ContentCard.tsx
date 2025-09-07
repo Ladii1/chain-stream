@@ -98,10 +98,10 @@ export const ContentCard = ({ content, onUpvote, onTip }: ContentCardProps) => {
             )}
 
             {content.contentType === 'article' && (
-                <div>
-                    <div>
-                        <h3>{content.title}</h3>
-                        <p>{content.description}</p>
+                <div className='h-24 sm:h-32 bg-gradient-to-br from-purple-50 to-blue-50 flex items-center justify-center p-4'>
+                    <div className='text-center'>
+                        <h3 className='text-sm sm:text-lg font-semibold text-gray-800 mb-1 sm:mb:2 line-clamp-1 sm:line-clamp-none'>{content.title}</h3>
+                        <p className='text-xs sm:text-sm text-gray-600 line-clamp-2 hidden sm:block'>{content.description}</p>
                     </div>
                 </div>
             )}
