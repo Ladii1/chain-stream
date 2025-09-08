@@ -39,7 +39,7 @@ export const Header = () => {
                         <Plus className='w-4 h-4'/>
                         <span>Create</span>
                       </Link>
-                      <Link href="#" className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+                      <Link href="/profile" className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                         <User className='w-4 h-4'/>
                         <span>Profile</span>
                       </Link>

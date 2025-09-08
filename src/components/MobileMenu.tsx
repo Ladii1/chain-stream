@@ -40,7 +40,7 @@ export const MobileMenu = () => {
     { href: '/explore', icon: Search, label: 'Explore' },
     ...(address ? [
       { href: '/create', icon: Plus, label: 'Create' },
-      { href: '#', icon: User, label: 'Profile' },
+      { href: '/profile', icon: User, label: 'Profile' },
     ] : []),
   ];
 
